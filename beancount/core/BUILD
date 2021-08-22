@@ -268,6 +268,7 @@ py_test(
 py_library(
     name = "number",
     srcs = ["number.py"],
+    visibility = ["//visibility:public"],
 )
 
 py_test(
